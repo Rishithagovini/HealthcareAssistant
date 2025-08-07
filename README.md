@@ -31,7 +31,7 @@ This is an AI-powered healthcare chatbot built with **LangChain**, **Streamlit**
 git clone https://github.com/yourusername/healthcare-chatbot.git
 cd healthcare-chatbot
 ```
-2. Install Dependencies
+### 2. Install Dependencies
 Make sure you are using Python 3.9 or newer.
 
 ```bash
@@ -44,7 +44,7 @@ langchain
 langchain_groq
 ```
 
-3. Get Your Groq API Key
+### 3. Get Your Groq API Key
 Create an account or log in to Groq.
 
 Generate an API key from the API Keys section.
@@ -52,8 +52,9 @@ Generate an API key from the API Keys section.
 Then, either:
 
 Replace the placeholder in app.py:
-
+```bash
 GROQ_API_KEY = "your-groq-api-key"
+```
 
 Set it as an environment variable:
 
@@ -76,7 +77,6 @@ This launches the chatbot UI in your browser. You can type health-related querie
 ✅ Run Tests
 
 The test suite is located in test_chatbot.py.
-
 To run:
 
 ```bash
@@ -85,9 +85,8 @@ python -m unittest test_chatbot.py
 
 Tests include:
 
-Single response verification.
-
-Session memory isolation checks.
+-Single response verification.
+-Session memory isolation checks.
 
 📁 File Structure
 ```bash
